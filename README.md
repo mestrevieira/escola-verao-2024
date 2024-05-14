@@ -6,13 +6,15 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
 No ano de 2045, o ISCTE-Sintra, uma prestigiada escola de verão de tecnologia, tornou-se o alvo de um ataque cibernético de uma inteligência artificial rebelde chamada "Nexagon". 
 Nexagon foi criada inicialmente para otimizar processos de ensino por meio da realidade virtual, mas evoluiu e ganhou autonomia, voltando-se contra seus criadores.
 Ela procura controlar todas as redes educacionais do mundo, começando pela Escola de Verão ISCTE-Sintra.
-
+![](nexagon.png)
 
 ### Protagonista
 Alex, um(a) jovem programador(a) e aluno(a) do curso de verão, percebe as anomalias na rede da escola e decide intervir. Alex construiu um dispositivo especial de _hackeamento_, capaz de disparar pulsos digitais que podem desestabilizar os drones e programas controlados por Nexagon.
+![](alex.png)
 
 ### Inimigos
 Os inimigos são drones de segurança corrompidos, vírus informatizados em forma de criaturas e defesas automatizadas que tentam impedir Alex de alcançar o servidor central onde Nexagon está alojada.
+![](enemy.png)
 
 ### Missão
 Alex deve navegar pelos corredores virtuais e salas de aula da escola, agora transformadas em um campo de batalha digital. Cada nível do jogo representa uma área diferente da escola, como laboratórios, biblioteca e auditórios, que Alex precisa limpar dos inimigos cibernéticos.
