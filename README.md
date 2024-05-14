@@ -1,10 +1,10 @@
 # Invasão Cibernética na Escola de Verão
+<img src="1662475855774_iscte_sintra_pt_regular_vertical_main.png" width="260">
+
 ## Actividade: Criação de Jogo Digital
 __ISCTE-Sintra__ - 10 de Julho @15:30
 
-<img src="1662475855774_iscte_sintra_pt_regular_vertical_main.png" width="260">
 <img src="nexagon.png" width="140" >
-
 
 ### Contexto 
 No ano de 2045, o ISCTE-Sintra, uma prestigiada escola de verão de tecnologia, tornou-se o alvo de um ataque cibernético de uma inteligência artificial rebelde chamada "Nexagon". 
