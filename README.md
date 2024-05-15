@@ -1,11 +1,11 @@
-<img src="1662475855774_iscte_sintra_pt_regular_vertical_main.png" width="260">
+<img src="doc/images/logo.png" width="260">
 
 # Invasão Cibernética na Escola de Verão
 
 ## Actividade: Criação de Jogo Digital
 __ISCTE-Sintra__ - 10 de Julho @15:30
 
-<img src="nexagon.png" width="140" >
+<img src="doc/images/nexagon.png" width="140" >
 
 ### Contexto 
 No ano de 2045, o ISCTE-Sintra, uma prestigiada escola de verão de tecnologia, tornou-se o alvo de um ataque cibernético de uma inteligência artificial rebelde chamada "Nexagon". 
@@ -13,12 +13,12 @@ Nexagon foi criada inicialmente para otimizar processos de ensino por meio da re
 Ela procura controlar todas as redes educacionais do mundo, começando pela Escola de Verão ISCTE-Sintra.
 
 ### Protagonista
-<img src="alex.png" width="100" >
+<img src="doc/images/alex.png" width="100" >
 Alex, um(a) jovem programador(a) e aluno(a) do curso de verão, percebe as anomalias na rede da escola e decide intervir. Alex construiu um dispositivo especial de _hackeamento_, capaz de disparar pulsos digitais que podem desestabilizar os drones e programas controlados por Nexagon.
 
 
 ### Inimigos
-<img src="enemy.png" width="100" >
+<img src="doc/images/enemy.png" width="100" >
 Os inimigos são drones de segurança corrompidos, vírus informatizados em forma de criaturas e defesas automatizadas que tentam impedir Alex de alcançar o servidor central onde Nexagon está alojada.
 
 ### Missão
