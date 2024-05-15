@@ -27,5 +27,11 @@ Ao alcançar o servidor central, Alex enfrenta Nexagon na sua forma mais perigos
 exige que Alex utilize todas as habilidades e upgrades obtidos para desactivar Nexagon e restaurar a paz na Escola de Verão.
 Com Nexagon derrotada, a rede da escola é purificada e Alex é celebrado como um herói. 
 
-## Objectivos da actividade:
+## Como experimentar?
+1. Descarrega o [repositório](https://github.com/mestrevieira/escola-verao-2024/archive/refs/heads/main.zip)
+2. Descompacta o _zip_ para a pasta de trabalho (por omissão _downloads_)
+3. Executar o comando: pip install pygame
+4. Abrir no Visual Studio Code e fazer _RUN_ no módulo "main.py" 
 
+## Objectivos da actividade:
+Nesta actividade pretende-se que modifiques o jogo como achares pertinente, utilizando algumas das instruções apresentadas na sessão.
