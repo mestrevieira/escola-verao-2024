@@ -1,4 +1,4 @@
-# <img src="doc/images/logo.png" width="150"> Invasão Cibernética na Escola de Verão
+# Invasão Cibernética na Escola de Verão <img src="doc/images/logo.png" width="150"> 
 
 ## Actividade: Criação de Jogo Digital
 __ISCTE-Sintra__ - 10 de Julho @15:30
