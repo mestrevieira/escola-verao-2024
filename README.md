@@ -9,7 +9,7 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
 <table border="0">
     <tr>
     <td>
-        <img src="doc/images/nexagon.png" width="250" >
+        <img src="doc/images/nexagon.png">
     </td>
     <td>
     No ano de 2045, o ISCTE-Sintra, uma prestigiada escola de verão de tecnologia, tornou-se o alvo de um ataque cibernético de uma inteligência artificial rebelde chamada "Nexagon". 
@@ -23,7 +23,7 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
 <table border="0">
     <tr>
     <td>
-        <img src="doc/images/alex.png" width="250" >
+        <img src="doc/images/alex.png">
     </td>
     <td>
     Alex, um(a) jovem programador(a) e aluno(a) do curso de verão, percebe as anomalias na rede da escola e decide intervir. Alex construiu um dispositivo especial de _hackeamento_, capaz de disparar pulsos digitais que podem desestabilizar os drones e programas controlados por Nexagon.
@@ -38,7 +38,7 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
 <table border="0">
     <tr>
     <td>
-        <img src="doc/images/enemy.png" width="250" >
+        <img src="doc/images/enemy.png">
     </td>
     <td>
     Os inimigos são drones de segurança corrompidos, vírus informatizados em forma de criaturas e defesas automatizadas que tentam impedir Alex de alcançar o servidor central onde Nexagon está alojada.
