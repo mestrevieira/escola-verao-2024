@@ -2,18 +2,30 @@ import pygame
 from welcome_screen import WelcomeScreen
 from game import Game
 from game_over import GameOver
-from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 
-def main():
+def run_game():
+    """Setup and run the main game loop."""
     pygame.init()
-    welcome_screen = WelcomeScreen(pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT)))
+    pygame.font.init()
+    pygame.display.set_caption("Invasão Cibernética na Escola de Verão")
+    welcome_screen()
+    run_game()
+    game_over_screen()
+    
+def welcome_screen():
+    """Run the welcome screen"""
+    welcome_screen = WelcomeScreen()
     welcome_screen.run()
+
+def run_game():
+    """Run the main game"""
     game = Game()
     game.run()
-    game_over = GameOver(pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT)))
-    game_over.run()
-    pygame.quit()
 
+def game_over_screen():
+    """Run the game over screen"""
+    game_over = GameOver()
+    game_over.run()
 
 if __name__ == "__main__":
-    main()
+    run_game()

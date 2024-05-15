@@ -3,8 +3,6 @@
 ## Actividade: Criação de Jogo Digital
 __ISCTE-Sintra__ - 10 de Julho @15:30
 
-
-
 ###  Contexto 
 <table border="0">
     <tr>
@@ -31,9 +29,6 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
     </tr>
 </table>
 
-
-
-
 ### Inimigos
 <table border="0">
     <tr>
@@ -45,7 +40,6 @@ __ISCTE-Sintra__ - 10 de Julho @15:30
     </td>
     </tr>
 </table>
-
 
 ### Missão
 Alex deve navegar pelos corredores virtuais e salas de aula da escola, agora transformadas em um campo de batalha digital. Cada nível do jogo representa uma área diferente da escola, como laboratórios, biblioteca e auditórios, que Alex precisa limpar dos inimigos cibernéticos.
