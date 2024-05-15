@@ -1,5 +1,7 @@
 import pygame
 import sys
+from audiomanager import AudioManager
+from constants import *
 
 class WelcomeScreen:
     def __init__(self, screen):
@@ -7,8 +9,8 @@ class WelcomeScreen:
         self.screen_width = self.screen.get_width()
         self.screen_height = self.screen.get_height()
         pygame.display.set_caption("Invasão Cibernética na Escola de Verão")
-        self.background = pygame.image.load('images/background_welcome.png').convert()        
-        self.font = pygame.font.Font('font/VeniteAdoremus-rgRBA.ttf', 30)
+        self.background = pygame.image.load(WELCOME_IMAGE).convert()        
+        self.font = pygame.font.Font(TEXT_FONT, 30)
         self.text = self.font.render('Press Start', True, (255, 255, 255))
         self.text_rect = self.text.get_rect(center=(self.screen_width / 2, self.screen_height / 2))
         self.show_text = True
@@ -16,9 +18,8 @@ class WelcomeScreen:
         self.switch_interval = 500  # milliseconds
 
         # Music setup
-        pygame.mixer.music.load('sound/opening_theme.mp3')
-        pygame.mixer.music.set_volume(0.5)  # Adjust the volume to 50%
-        pygame.mixer.music.play(-1)  # Loop the music indefinitely
+        self.audio_manager = AudioManager()
+        self.audio_manager.play_sound('opening')
 
     def run(self):
         running = True

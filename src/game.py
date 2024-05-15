@@ -6,7 +6,7 @@ from player import Player
 from bullet import Bullet
 from enemy import Enemy
 from explosion import Explosion
-from constants import SCREEN_WIDTH, SCREEN_HEIGHT, BULLET_SPEED
+from constants import SCREEN_WIDTH, SCREEN_HEIGHT, BULLET_SPEED, BACKGROUND_IMAGE
 
 class Game:
     def __init__(self):
@@ -19,7 +19,7 @@ class Game:
         self.audio_manager.play_sound('music')
         
         # Load background
-        self.background = pygame.image.load("images/background.png").convert()
+        self.background = pygame.image.load(BACKGROUND_IMAGE).convert()
         self.background_rect = self.background.get_rect()
         
         # Game entities
@@ -34,6 +34,9 @@ class Game:
         self.enemy_spawn_time = 0
         self.spawn_interval = 500
 
+        # Score
+        self.font = pygame.font.Font('assets/font/VeniteAdoremus-rgRBA.ttf', 30)
+
     def run(self):
         while self.running:
             self.handle_events()
@@ -45,7 +48,7 @@ class Game:
         for event in pygame.event.get():
             if event.type == QUIT:
                 self.running = False
-            elif event.type == KEYDOWN and event.key == K_SPACE:
+            elif event.type == KEYDOWN and event.key == K_SPACE or event.type == MOUSEBUTTONDOWN:
                 self.shoot_bullets(self.player.rect.center)
 
     def update_game_logic(self):
@@ -65,6 +68,10 @@ class Game:
         self.screen.blit(self.background, (0, y_offset - self.background_rect.height))
         self.screen.blit(self.background, (0, y_offset))
         self.all_sprites.draw(self.screen)
+       
+        self.text = self.font.render(f"SCORE: {self.player.score}", True, (255, 255, 255))
+        self.text_rect = self.text.get_rect(center=(SCREEN_WIDTH - 150, 50))
+        self.screen.blit(self.text, self.text_rect)
         pygame.display.flip()
 
     def shoot_bullets(self, position):
@@ -86,6 +93,7 @@ class Game:
                 explosion = Explosion(enemy.rect.center)
                 self.all_sprites.add(explosion)
                 self.explosions.add(explosion)
+                self.player.update_score(10)
 
             if pygame.sprite.collide_rect(self.player, enemy):
                 self.end_game()

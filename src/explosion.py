@@ -1,11 +1,12 @@
 import pygame
+from constants import *
 
 class Explosion(pygame.sprite.Sprite):
     def __init__(self, center):
         super().__init__()
         self.images = []
         for i in range(13): 
-            img = pygame.image.load(f'images/explosions/tile00{i+1}.png').convert_alpha()
+            img = pygame.image.load(f'{EXPLOSIONS_PATH}/tile00{i+1}.png').convert_alpha()
             img = pygame.transform.scale(img, (100, 100))  # Scale to desired size
             self.images.append(img)
         self.current_frame = 0

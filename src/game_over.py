@@ -1,5 +1,6 @@
 import pygame
 import sys
+from constants import *
 
 class GameOver:
     def __init__(self, screen):
@@ -7,8 +8,8 @@ class GameOver:
         self.screen_width = self.screen.get_width()
         self.screen_height = self.screen.get_height()
         pygame.display.set_caption("Invasão Cibernética na Escola de Verão")
-        self.background = pygame.image.load('images/background_game_over.png').convert()
-        self.font = pygame.font.Font('font/VeniteAdoremus-rgRBA.ttf', 30)
+        self.background = pygame.image.load(GAMEOVER_IMAGE).convert()
+        self.font = pygame.font.Font(TEXT_FONT, 30)
         self.text = self.font.render('Game Over', True, (255, 255, 255))
         self.text_rect = self.text.get_rect(center=(self.screen_width / 2, self.screen_height / 2))
         self.show_text = True

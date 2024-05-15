@@ -5,7 +5,7 @@ from constants import *
 class Bullet(pygame.sprite.Sprite):  
     def __init__(self, x, y, dx, dy):  
         super().__init__()  
-        original_image = pygame.image.load('images/bullet.png').convert_alpha()
+        original_image = pygame.image.load(BULLET_IMAGE).convert_alpha()
         self.image = pygame.transform.scale(original_image, IMAGE_SIZE) 
         self.rect = self.image.get_rect(center=(x, y))  
         self.dx = dx  
